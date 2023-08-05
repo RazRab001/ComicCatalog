@@ -1,0 +1,17 @@
+﻿<Window x:Class="ReviewInterface.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ReviewInterface"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400">
+    <Grid>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="25,139,0,0" VerticalAlignment="Top" Width="160" Height="30"/>
+        <Slider x:Name="valueSlider" HorizontalAlignment="Left" Margin="25,241,0,0" VerticalAlignment="Top" Width="355" Maximum="100"/>
+        <TextBox x:Name="issueText" HorizontalAlignment="Left" Margin="120,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" FontSize="32"/>
+        <Button Content="Add review" HorizontalAlignment="Left" Margin="45,324,0,0" VerticalAlignment="Top" Width="295" Height="70" FontSize="32" Click="Button_Click"/>
+        <Label Content="Issue" HorizontalAlignment="Left" Margin="25,59,0,0" VerticalAlignment="Top" FontSize="32"/>
+
+    </Grid>
+</Window>

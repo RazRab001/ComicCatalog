@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComicCatalog", "ComicCatalog\ComicCatalog.csproj", "{2C72CB9C-7BEF-419B-911F-5D81E74BC724}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewInterface", "ReviewInterface\ReviewInterface.csproj", "{A8A67058-6F1D-4FCD-AD3E-CC2C7474FB36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C72CB9C-7BEF-419B-911F-5D81E74BC724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C72CB9C-7BEF-419B-911F-5D81E74BC724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C72CB9C-7BEF-419B-911F-5D81E74BC724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C72CB9C-7BEF-419B-911F-5D81E74BC724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8A67058-6F1D-4FCD-AD3E-CC2C7474FB36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8A67058-6F1D-4FCD-AD3E-CC2C7474FB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8A67058-6F1D-4FCD-AD3E-CC2C7474FB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8A67058-6F1D-4FCD-AD3E-CC2C7474FB36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9D75A91-C5E9-4861-84C5-2A7B7541EAE8}
+	EndGlobalSection
+EndGlobal

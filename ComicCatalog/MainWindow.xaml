@@ -1,0 +1,24 @@
+﻿<Window x:Class="ComicCatalog.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ComicCatalog"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="listBox" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="400,30,54,156"/>
+        <Label Content="Add Comic" HorizontalAlignment="Left" Margin="100,30,0,0" VerticalAlignment="Top" FontSize="32"/>
+        <TextBox x:Name="textName" HorizontalAlignment="Left" Margin="63,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="257" FontSize="20"/>
+        <TextBox x:Name="textNum" HorizontalAlignment="Left" Margin="63,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="257" FontSize="20"/>
+        <Button x:Name="buttonAdd" Content="Add new comic" HorizontalAlignment="Left" Margin="105,298,0,0" VerticalAlignment="Top" FontSize="25" Click="Button_Click"/>
+        <Label Content="Comic name: " HorizontalAlignment="Left" Margin="65,130,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Comic issue: " HorizontalAlignment="Left" Margin="65,210,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Button x:Name="IssueSortButton" Content="Sort by isuue" HorizontalAlignment="Left" Margin="400,317,0,0" VerticalAlignment="Top" FontSize="25" Click="SortIsuueButton_Click"/>
+        <Button x:Name="nameSortButton" Content="Sort by name" HorizontalAlignment="Left" Margin="595,317,0,0" VerticalAlignment="Top" FontSize="25" Click="SortNameButton_Click"/>
+        <Button Content="Save" HorizontalAlignment="Left" Margin="36,46,0,0" VerticalAlignment="Top" Click="ButtonSave_Click"/>
+        <Button x:Name="buttonAdd_Copy" Content="Remove comic" HorizontalAlignment="Left" Margin="105,357,0,0" VerticalAlignment="Top" FontSize="25" Click="Remove_Click" Width="174"/>
+        <Button x:Name="reviewButton" Content="Show Review" HorizontalAlignment="Left" Margin="428,389,0,0" VerticalAlignment="Top" Width="120" Click="ShowReview_Button"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="611,387,0,0" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Window>
